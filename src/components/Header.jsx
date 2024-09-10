@@ -1,6 +1,5 @@
-import { data } from "autoprefixer";
+
 import { useNavigate } from "react-router";
-import Hero from "./Hero";
 
 function Header() {
 
@@ -54,13 +53,10 @@ function Header() {
         </div>
       </header>
 
-      {/*  Hero  */}
-      
-{/*    
-      <Hero/> */}
+   
     </div>
   )
 }
 
 
-export default Header;
+export default Header
