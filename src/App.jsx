@@ -8,6 +8,7 @@ import Login from './Firebase_auth/login'
 import './App.css'
 import Sigin from './Firebase_auth/Sigin';
 import Hero from './components/Hero';
+import Header from './components/header';
 
 
 
@@ -22,7 +23,7 @@ function App() {
 
       <BrowserRouter>
       
-       
+       <Header/>
         <Routes>
           
         <Route path='/' element={<Hero/>} />
