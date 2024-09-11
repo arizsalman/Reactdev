@@ -135,4 +135,4 @@ section {
     )
 }
 
-export default SecondTask;
+SecondTask;
