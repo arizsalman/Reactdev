@@ -17,8 +17,7 @@ function App() {
 
 
   return (
-    <div>
-
+    
     
 
       <BrowserRouter>
@@ -42,7 +41,7 @@ function App() {
 
 
 
-    </div>
+    
 
 
   )
